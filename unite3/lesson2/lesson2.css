@@ -1,0 +1,108 @@
+
+/* استيراد الخطوط من Google Fonts */@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* إعدادات عامة */
+* {
+    /*padding: 0;
+    margin: 0;*/
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+    direction: rtl;
+}
+
+::selection {
+    background-color: #926747;
+    color: #bcac9e;
+}
+
+header {
+    background-color:#926747;
+    color:black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+header h1 {
+    font-weight: 900;
+    color: beige;
+}
+
+h2 {
+    font-weight: 900;
+color:beige;
+text-align: right;
+justify-content: right;
+}
+
+
+
+body{
+    
+    min-height: 100vh;
+    background: url(/images/backbro.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+.custom-button {
+    background-color:#a37857; /* لون الخلفية */
+    border: none; /* لإزالة الحدود */
+    color: white; /* لون النص */
+    padding: 15px 15px; /* تحديد التباعد داخل الزر */
+    text-align: center; /* محاذاة النص في الوسط */
+    text-decoration: none; /* لإزالة الزخرفة النصية الافتراضية */
+    display: inline-block; /* جعل الزر يظهر كمستطيل متساوي الأطراف */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 8px; /* تحديد حواف مستديرة */
+    cursor: pointer; /* تغيير المؤشر إلى شكل اليد عند التحويم */
+    transition-duration: 0.4s; /* تأثير التحول */
+}
+
+.custom-button:hover {
+    background-color:#926747 /* لون الخلفية عند التحويم */
+}
+
+h2{
+    text-align: center;
+}
+
+.container h2   {
+    
+    background-color: #f5eae1;
+    border-radius: 5px ;
+    padding: 3px;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    color:#cbbfb4;
+    font-weight: 900;
+    
+}
+
+.container1 h2  {
+    background-color: #f5eae1;
+    border-radius: 5px ;
+    padding: 3px;
+    text-align: center;
+}
+    
+
+
+
+
+
+
+
+

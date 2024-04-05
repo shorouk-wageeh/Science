@@ -1,0 +1,131 @@
+
+/* استيراد الخطوط من Google Fonts */@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* إعدادات عامة */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+    direction: rtl;
+}
+
+::selection {
+    background-color: #926747;
+    color: #bcac9e;
+}
+
+header {
+    background-color:#926747;
+    color:black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+header h1 {
+    font-weight: 900;
+    color:rgb(40, 17, 17);
+}
+
+h2 {
+    font-weight: 900;
+color:beige;
+text-align: right;
+justify-content: space-between;
+
+}
+
+
+
+
+
+body{
+    
+    min-height: 100vh;
+    background: url(/images/dark.png) no-repeat; 
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+
+
+.card-text {
+    height: 120px;
+}
+
+
+.custom-button {
+    background-color:#a37857; /* لون الخلفية */
+    border: none; /* لإزالة الحدود */
+    color: white; /* لون النص */
+    padding: 15px 15px; /* تحديد التباعد داخل الزر */
+    text-align: center; /* محاذاة النص في الوسط */
+    text-decoration: none; /* لإزالة الزخرفة النصية الافتراضية */
+    display: inline-block; /* جعل الزر يظهر كمستطيل متساوي الأطراف */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 8px; /* تحديد حواف مستديرة */
+    cursor: pointer; /* تغيير المؤشر إلى شكل اليد عند التحويم */
+    transition-duration: 0.4s; /* تأثير التحول */
+}
+
+.custom-button:hover {
+    background-color:#926747 /* لون الخلفية عند التحويم */
+}
+
+
+
+
+
+.custom-button2 {
+    background-color:#a37857; /* لون الخلفية */
+    border: none; /* لإزالة الحدود */
+    color: white; /* لون النص */
+    padding:15px 15px; /* تحديد التباعد داخل الزر */
+    text-align: center; /* محاذاة النص في الوسط */
+    text-decoration: none; /* لإزالة الزخرفة النصية الافتراضية */
+    display: inline-block; /* جعل الزر يظهر كمستطيل متساوي الأطراف */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 8px; /* تحديد حواف مستديرة */
+    cursor: pointer; /* تغيير المؤشر إلى شكل اليد عند التحويم */
+    transition-duration: 0.4s; /* تأثير التحول */
+     /* ضبط الموقع للزر على اليسار */
+        position: fixed;
+        left: 20px; /* تحديد المسافة من اليسار */
+      
+        transform: translateY(-5%);
+}
+
+.custom-button2:hover {
+    background-color:#926747 /* لون الخلفية عند التحويم */
+}
+
+h3 {
+    color: #000;
+
+}
+
+
+
+
+h2 {
+    
+    color:#fff;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5
+   
+}
+
+
+
+
+
