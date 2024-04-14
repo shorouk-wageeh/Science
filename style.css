@@ -1,51 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Readex+Pro:wght@160..700&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Readex+Pro:wght@160..700&family=Reem+Kufi+Fun:wght@400..700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Marhey', sans-serif !important;
+  font-family: "Marhey", sans-serif !important;
 }
 
-body{
-  display:flex;
+body {
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url(images/back4.jpg) no-repeat; 
+  background: url(/Science/images/back4.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 header {
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    padding: 20px 100px;
-    
-display: flex;
-justify-content: right;
-align-items: center;
-z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  z-index: 99;
 }
 
-
 section {
-  padding: 100px 1px  1px  700px
+  padding: 100px 1px 1px 700px;
 }
 
 .main {
   width: 100%;
   min-height: 100vh;
   display: flex;
-  align-items:center;
+  align-items: center;
   text-align: right;
-  
 }
 
 .main h2 {
   color: #fff;
   font-size: 1.8em;
-  font-weight:300;
+  font-weight: 300;
 }
 
 .main h2 span {
@@ -67,7 +65,7 @@ section {
 
 .main-btn {
   color: #fff;
-  background-color:#996d4c;
+  background-color: #996d4c;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 600;
@@ -80,29 +78,21 @@ section {
 }
 
 .main-btn:hover {
-  background-color:#926747;
+  background-color: #926747;
   transform: scale(1.1);
 }
 
-
-
-
-
-
 .navigation a {
-
   position: relative;
   font-size: 1.1cm;
   color: #fff;
-  text-decoration:none;
+  text-decoration: none;
   font-weight: 300;
   margin-left: 40px;
-
-
 }
 
-.navigation ::after{
-  content: '';
+.navigation ::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: 6px;
@@ -112,7 +102,7 @@ section {
   border-radius: 5px;
   transform-origin: left;
   transform: scaleX(0);
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .navigation a:hover::after {
@@ -121,30 +111,22 @@ section {
   transform: scaleX(1);
 }
 
-
-
-.navigation .btnLogin-popup{
+.navigation .btnLogin-popup {
   width: 130px;
-height: 50px;
-background:transparent;
-border: 2px solid #926747;
-outline: none;
-border-radius: 6px;
-cursor: pointer;
-font-size: 1.1em;
-color: #fff;
-font-weight: 300;
-margin-left: 40px;
-transition: .5s;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #926747;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 40px;
+  transition: 0.5s;
 }
 
 .navigation .btnLogin-popup:hover {
-  background: #926747; 
+  background: #926747;
   color: #fff;
 }
-
-
-
-
-
-
